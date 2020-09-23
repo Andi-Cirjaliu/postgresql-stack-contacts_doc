@@ -1,0 +1,6 @@
+{
+    "title": "Crunch PostgreSQL",
+    "description": "Crunchy PostgreSQL lets you run your own production-grade PostgreSQL-as-a-Service on OpenShift/Kubernetes.",
+    "hasInlineModules": true,
+    "inlineModuleDelimiter": "H3"
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Node.js, React and Postgres Stack",
+    "platform": "kubernetes",
+    "description": "",
+    "logo": "_attachments/SalesStack.png",
+    "meta": {
+    "Backend": [
+    "Node.js"
+    ],
+    "Frontend": [
+    "React"
+    ],
+    "Database": [
+    "Postgres"
+    ],
+    "Install time:": [
+    "3 minutes"
+    ]
+    },
+    "commands": [
+    {
+    "description": "Download MongoDB Manifests",
+    "exec": "cd /home/student/projects  && git clone https://github.com/operator-playground/k8s-manifests"
+    },
+    {
+    "description": "Install MongoDB ",
+    "exec": "cd /home/student/projects/k8s-manifests &&  kubectl create -f mongodb/"
+    },
+    {
+    "description": "Clone the Contacts application",
+    "exec": "cd /home/student/projects && git clone https://github.com/operator-playground/mvc-db-example"
+    },
+    {
+    "description": "Build and Deploy using Skaffold",
+    "exec": "cd /home/student/projects/mvc-db-example && skaffold config set default-repo localhost:5000 && skaffold run"
+    }
+    ],
+    "content": [
+    "explore-data-sql",
+    "postgresql",
+    "contacts-tutorial"
+    ],
+    "display": [
+    {
+    "name": "Developer Dashboard",
+    "url": "##DNS.host##/codeserver",
+    "enabled": true
+    },
+    {
+    "name": "Platform Dashboard",
+    "url": "##DNS.host##/kube-dashboard",
+    "enabled": true
+    }
+    ]
+    }

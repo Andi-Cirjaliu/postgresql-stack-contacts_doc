@@ -1,0 +1,28 @@
+{
+  "title": "PostgreSQL Sales Stack Catalog",
+  "owners": {
+    "8J2FDdi": [
+      "all"
+    ]
+  },
+  "viewers": {
+    "all": [
+      "all"
+    ]
+  },
+  "editors": {},
+  "previewers": {},
+  "copyright": {},
+  "catalogInfo": {
+    "appLayout": "accordion",
+    "appTheme": "g90",
+    "footer": "__private/footer.md",
+    "usefulLinks": [
+      {
+        "title": "Skaffold",
+        "description": "Skaffold handles the workflow for building, pushing and deploying your application, allowing you to focus on what matters most: writing code. ",
+        "url": "https://skaffold.dev/"
+      }
+    ]
+  }
+}

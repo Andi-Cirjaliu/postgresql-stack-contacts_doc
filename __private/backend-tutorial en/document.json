@@ -1,0 +1,7 @@
+{
+    "title": "Sales App Backend",
+    "description": "Sales application backend built using NodeJS and communicating with Postgresql database",
+    "duration": "60 min",
+    "hasInlineModules": true,
+    "inlineModuleDelimiter": "H3"
+}

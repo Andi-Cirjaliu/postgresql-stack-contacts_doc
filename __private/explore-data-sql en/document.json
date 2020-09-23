@@ -1,0 +1,7 @@
+{
+    "title": "Explore data in PostgreSQL",
+    "description": "Learn basics about how to use and query PostgreSQL",
+    "duration": "30 min",
+    "hasInlineModules": true,
+    "inlineModuleDelimiter": "H3"
+}

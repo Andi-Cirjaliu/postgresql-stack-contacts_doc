@@ -1,0 +1,7 @@
+{
+    "title": "Explore MVC Database Application",
+    "description": "The Stack comprises of a MongoDB , Backend and Frontend deployed as Microservices",
+    "duration": "30 min",
+    "hasInlineModules": true,
+    "inlineModuleDelimiter": "H3"
+}
