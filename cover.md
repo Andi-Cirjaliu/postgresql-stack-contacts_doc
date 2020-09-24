@@ -1,25 +1,26 @@
 ### Description
 
-MVC Database application is based on MEAN stack and provides an good starter to build a 3 tier microservice application and deploy them on any platforms like Kubernetes and OpenShift. The application consists of an **Database** , **React based Frontend** and **Express using NodeJS** backend.
+Contacts application is based on MEAN stack and provides an good starter to build a 3 tier microservice application and deploy them on any platforms like Kubernetes and OpenShift. The application consists of an **Database** , **React based Frontend** and **NodeJS (Express) ** backend.
 
 ### Architecture
 
 ![architecture](_attachments/arch.png)
 
 
-This stack consists of PostgreSQL, Express, React and Node.js. Combining these technologies, one can build a full-stack web application with CRUD operations. Everyone must have heard about MEAN Stack which is basically a JavaScript Stack for the deployment of full-stack web development and contains 4 technologies, namely: MongoDB, Express, React and Node.js. 
+This stack consists of PostgreSQL, React and Node.js. Combining these technologies, one can build a full-stack web application with CRUD operations.
 
 **Stack Components:**
 
-1. **MongoDB (NoSQL Database)**
+1. **PostgreSQL (Relational Database)**
 
-    MongoDB is an open-source document database built on a horizontal scale-out architecture. Founded in 2007, MongoDB has a worldwide following in the developer community.Instead of storing data in tables of rows or columns like SQL databases, each row in a MongoDB database is a document described in JSON, a formatting language. 
+    PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads.
 
-    **Why use MongoDB?**
+    **Why use PostgreSQL?**
 
     - Free and open source.
     - Available in multiple languages.
     - Highly extensible.
+    - Highly scalable.
     - Protects data integrity.
     - Builds fault-tolerant environments.
     - Robust access-control system
